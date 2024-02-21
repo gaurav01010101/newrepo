@@ -1,0 +1,5 @@
+- hosts: web
+  tasks:
+    - copy
+       src: /home/ec2-user/play.txt
+       dest: /home/ec2-user/
